@@ -28,9 +28,16 @@ while True:
             chosen_language == "Spanigh"
         else:
             print("Invalid input")
-            continue
+            break
 
-        
+        if choice == 1:
+            print("Bonjour, Salut comment tu t'appelles")
+        elif choice == 2:
+            print("Hello, what is your name?")
+        elif choice ==3:
+            print("Hola Cuál es su nombre")
+
+
 
 
 
